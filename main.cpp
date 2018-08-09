@@ -16,6 +16,14 @@ int main()
 
     cout << variable << "\n" << xd/7 << "\n" << nu << "\n"  << num << "\n" <<  num2 << "\n" << sum << "\n" << endl ;
 
+    switch (num){
+        case 35:
+            cout << "Es igual a " << num <<"\n"<<endl;
+            break;
+        default:
+            cout << "Es diferente a "<< num <<"\n"<< endl;
+    }
+
     char c;
     cout << "Escriba una letra" << endl;
     cin >> c;
@@ -30,9 +38,10 @@ int main()
             cout << "Es una vocal \n" << endl;
             break;
         default:
-            cout << "Es una consonante" <<endl;
+            cout << "Es una consonante u otro caracter" <<endl;
     }
 
 
+    cin.get();
     return 0;
 }
