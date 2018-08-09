@@ -14,7 +14,7 @@ int main()
     float xd = (float) nu + num2;
     variable = (num > num2 || sum > num2);
 
-    cout << variable*2 << "\n" << xd << "\n" << nu << "\n"  << num << "\n" <<  num2 << "\n" << sum << "\n" << endl ;
+    cout << variable << "\n" << xd << "\n" << nu << "\n"  << num << "\n" <<  num2 << "\n" << sum << "\n" << endl ;
 
 
     return 0;
