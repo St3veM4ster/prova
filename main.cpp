@@ -16,6 +16,23 @@ int main()
 
     cout << variable << "\n" << xd/7 << "\n" << nu << "\n"  << num << "\n" <<  num2 << "\n" << sum << "\n" << endl ;
 
+    char c;
+    cout << "Escriba una letra" << endl;
+    cin >> c;
+
+    switch (c)
+    {
+        case 'a' :
+        case 'e' :
+        case 'i' :
+        case 'o' :
+        case 'u' :
+            cout << "Es una vocal \n" << endl;
+            break;
+        default:
+            cout << "Es una consonante" <<endl;
+    }
+
 
     return 0;
 }
